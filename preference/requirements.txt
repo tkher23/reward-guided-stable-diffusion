@@ -1,0 +1,29 @@
+# Preference Steering System Requirements
+# Pinned to the SAME tested versions as the repo-root requirements.txt.
+# These exact versions are the known-good combo for loading SD1.5/SDXL via
+# models/model_diffusion.py. Do NOT loosen the diffusers pin: diffusers >= 0.32
+# registers a Flash-Attention-3 custom op at import time that crashes on
+# torch < 2.6 (RunPod), so `import diffusers` fails before any model loads.
+
+# Core ML (must match root requirements.txt)
+torch==2.5.1
+torchvision==0.20.1
+
+# Transformers / CLIP / Diffusion (tested together)
+transformers==4.47.1
+diffusers==0.30.0
+peft==0.18.1
+accelerate==1.2.1
+huggingface-hub==0.36.0
+
+# Data & Deep Learning
+deeplake>=3.14.0
+numpy==2.0.1
+scipy==1.14.1
+Pillow==10.4.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Utilities
+tqdm==4.67.1

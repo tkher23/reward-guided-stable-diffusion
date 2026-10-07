@@ -1,0 +1,14 @@
+{
+  "csv_path": "data/catalog_clip_ready.csv",
+  "image_root": "data/images",
+  "output_dir": "models/oracle",
+  "batch_size": 16,
+  "epochs": 1,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "num_workers": 0,
+  "image_size": 224,
+  "seed": 42
+}

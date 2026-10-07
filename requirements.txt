@@ -1,0 +1,26 @@
+# ── Core ML / PyTorch ────────────────────────────────────────────────────────
+# VERIFIED on user's system: RTX 3090 + CUDA 12.4 + Python 3.12
+# Installed versions from system check (compatible together)
+torch==2.5.1
+torchvision==0.20.1
+
+# ── Transformers / CLIP / Diffusion ───────────────────────────────────────────
+# All versions tested together on user's system
+transformers==4.47.1
+diffusers==0.30.0
+peft==0.18.1
+accelerate==1.2.1
+huggingface-hub==0.36.0
+
+# ── Data Processing ───────────────────────────────────────────────────────────
+numpy==2.0.1
+scipy==1.14.1
+pandas==2.2.2
+Pillow==10.4.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tqdm==4.67.1
+
+# ── Scraping ─────────────────────────────────────────────────────────────────
+selenium==4.27.1
+webdriver-manager==4.0.2

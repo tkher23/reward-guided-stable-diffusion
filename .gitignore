@@ -1,0 +1,13 @@
+venv/
+data/images/
+__pycache__/
+.DS_Store
+models/clip_baseline
+models/diffusion_lora
+cli-custom.txt
+# local-only, kept out of the public repo
+.claude/
+data/
+report/
+sneakerdata/images/shoes_100/
+*.stackdump
