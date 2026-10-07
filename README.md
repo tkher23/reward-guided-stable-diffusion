@@ -1,9 +1,10 @@
-# Aligning Text-to-2D Diffusion Models with Manufacturing Cost Constraints using Differentiable Rewards
+# RGSD - Reward-Guided Stable Diffusion: A Method to Align Text-to-2D Diffusion Models with Manufacturing Cost Constraints using Differentiable Rewards
+* Trained and benchmarked on commercial bracelet images
 
 This project supports:
 1. Clean oracle training (price prediction from clean images)
 2. Diffusion generation with optional inference-time cost steering
-3. Local or Hugging Face model loading workflows
+3. Model loading workflows
 
 ## Data Format
 
